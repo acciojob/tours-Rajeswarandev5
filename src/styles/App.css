@@ -1,12 +1,56 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+#main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.tour {
+  background: white;
+  margin: 30px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.tour img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tour-info {
+  padding: 20px;
+}
+
+.tour-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-header span {
+  background: #ebf7ff;
+  padding: 5px 10px;
+}
+
+.info-btn {
+  border: none;
+  background: transparent;
+  color: #49a6e9;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn {
+  display: block;
+  margin: 20px auto 5px;
+  padding: 8px 30px;
+  border: 1px solid #bb2525;
+  background: transparent;
+  color: #bb2525;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
